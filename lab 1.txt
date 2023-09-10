@@ -1,0 +1,50 @@
+1.
+x=int(input("enter a number:"))
+y=int(input("enter a number:"))
+print("addition=" , x+y)
+print("subtraction=" , x-y)
+print("multiplication=" , x*y)
+print("division=" , x/y)
+
+
+2.
+a=float (input("enter number 1:"))
+b=float (input("enter number 2:"))
+c=float (input("enter number 3:"))
+d=float (input("enter number 4:"))
+avg= (a+b+c+d)/4
+print("avg of a,b,c,d is:",avg)
+
+
+3.
+P=float (input("enter initial principle value:"))
+r=float (input("enter annual interest rate:"))
+t=float (input("enter time in years:"))
+SI=(P*r*t)/100
+print("SI is:", SI)
+
+
+4.
+d=float (input("enter distance in kms:"))
+t=float (input("enter time in min:"))
+s=d/t
+print("speed in km per min is", s )
+
+5.
+a=float (input("enter length 1 of triangle in cms:"))
+b=float (input("enter length 2 of triangle in cms:"))
+c=float (input("enter length 3 of triangle in cms:"))
+s= (a+b+c)/2
+area=((s*(s-a)*(s-b)*(s-c))**0.5)
+print("area of triangle is", area)
+
+
+6.
+a=int(input("enter a number:"))
+b=int(input("enter a number:"))
+c=int(input("enter a number:"))
+D= b**2-4*a*c
+root1= (-b +D**0.5)/2*a
+root2= (-b -D**0.5)/2*a
+print(root1)
+print(root2)
