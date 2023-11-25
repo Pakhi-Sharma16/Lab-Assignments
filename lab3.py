@@ -55,10 +55,75 @@ print("numbers are palindrome")
 
 
 6.
-
-
+x=int(input("Enter a no:"))
+y=int(input("enter a no:"))
+print("Before swapping:",x,y)
+x,y=y,x
+print("After swapping:",x,y)
 
 
 7.
+x=complex(input("enter first complex number: "))
+y=complex(input("enter second complex number: "))
+sum=x+y
+product=x*y
+print(sum)
+print(product)
+
+8.
+bsal=int(input("enter salary:"))
+hra=0.2*bsal
+ta=0.05*bsal
+da=0.1*bsal
+gs=bsal+hra+ta+da
+print("Gtoss Salary is:",gs)
 
 
+9.
+bsal=int(input("enter salary:"))
+hra=0.2*bsal
+ta=0.05*bsal
+da=0.1*bsal
+gs=bsal+hra+ta+da
+print("Gtoss Salary is:",gs)
+
+if gs<300000:
+    print("No Income Tax")
+if gs>=300000 and gs<1000000:
+    inctx=0.1*gs
+    print(inctx)
+if gs>=1000000 and gs<2500000:
+    inctx=0.2*gs
+    print(inctx)
+if gs>=2500000:
+    inctx=0.3*gs
+    print(inctx)
+
+
+10.
+a=int(input("Enter a no:"))
+b=int(input("Enter a no:"))
+c=int(input("Enter a no:"))
+if a>b :
+    if a>c:
+        print("a is largest number")
+if b>a:
+    if b>c:
+        print("b is largest number")
+if c>a:
+    if c>b:
+        print("c is largest number")
+
+
+11.
+x = int(input("Enter the first digit:"))
+y = int(input("Enter the second digit:"))
+z = int(input("Enter the third digit:"))
+xyz= x,y,z
+cube = x**3 + y**3 + z**3
+print(x,y,z)
+print(cube)
+if xyz == cube:
+    print("It is an armstrong no.")
+else:
+    print("It is not an armstrong no.")
